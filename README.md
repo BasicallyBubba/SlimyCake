@@ -1,16 +1,16 @@
 ![Intro-GIF](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-GIF.gif) 
 
 # SlimyCake
-Very delicious Cheesecake. Designed by [Sorakage](https://github.com/Sorakage033/SlimeVR-CheeseCake)
+Very delicious Cheesecake. Designed by [Sorakage](https://github.com/Sorakage033/SlimeVR-CheeseCake) <br>
 Repo tidied up by BasicallyBubba
-
+<br>
 # OverView
 CheeseCake is a Lighter, smaller, prettier, and better IMU-based full-body tracking solution based on SlimeVR 
 With 8-port charging dock, eliminating wiring and storage troubles!
 Designed by Sorakage 
-
+<br>
  
-# CAUTION：   
+# CAUTION：   <br>
 **When you place an order in JLCPCB, remember change the PCB thickness to 1mm!**    
     
 **Before flashing the firmware, the board must be connected to the battery.**    

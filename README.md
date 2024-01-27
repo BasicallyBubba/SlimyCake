@@ -25,6 +25,8 @@ It can be even better if you can credit me on the modified PCB with [\[This LOGO
 - [Assembly](#Assembly)
 - [Support Link](#Support)
 
+
+
 ## Components 
 For the CheeseCake you will need the following components:   
 - PCB produced by JLC PCBA   
@@ -36,6 +38,8 @@ For the CheeseCake you will need the following components:
 - Pogo Pins (For trackers with no AUX port) [\[More Info\]](001-‘’Cheese‘’/POGOPIN%20purchase%20Link.txt)
 - Soldering Iron/Station 
 
+
+
 ## Versions
 There are 4 different flavors of tracker in this project:  
 - [Cheese](#Cheese)
@@ -43,7 +47,8 @@ There are 4 different flavors of tracker in this project:
 - [Blueberry](#Blueberry)
 - [RareCheese](#RareCheese)
 
-### 「Cheese」
+
+### Cheese
 This tracker has two variants:
 The original BMI160 variant
 And a slightly revised version designed for the BMI270
@@ -52,7 +57,8 @@ Both of these variants include gerbers for the regular tracker, as well as versi
 
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-3D_160.png?raw=true" width="30%">   
 
-### 「Choco」
+
+### Choco
 This is a variant of the Cheese that expands it slightly to fit a BNO 085 module
 This includes both the regular tracker and a version that includes the AUX header.
 
@@ -60,9 +66,12 @@ This includes both the regular tracker and a version that includes the AUX heade
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-3D_Special%20remake.png?raw=true" width="30%">    
 
 
-### BNO085-「Choco」SpecialRemake (With AUX port and DC-DC Buck power supply)  
+
+### ChocoRemix  
 This is a version of the Choco that includes a DC-DC buck converter
-This also has regular and AUX version. 
+This includes a regular tracker and a version with the AUX header
+
+NOTE: This version does not have PoGo Pins!
 
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-3D_Special%20remake_DCDC.png?raw=true" width="30%">      
 
@@ -88,18 +97,22 @@ While using this version, the code in ``define.h`` must be change to:
       #endif    
 ```      
 
-### 「Blueberry」
-(With AUX port and DC-DC Buck power supply)      
+### Blueberry
+This is a variant that uses an LSM6DSV16XTR tracker
+This provides better performance than a BNO while being slightly cheaper than a BNO 085
+
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-3D_LSM6DSV%20‘’Blueberry‘’.png?raw=true" width="30%">      
 
-It exists, therefore I designed.       
 
-### 「RareCheese」
-(With external oscillator , AUX port and DC-DC Buck power supply)        
+### RareCheese
+This is a variant that uses an ICM-42688 tracker 
+This is mostly experimental from Bubba's understanding
+This has an external oscillator, an AUX header, and a DC-DC buck converter
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro_3D_ICM42688“RareCheese”.png?raw=true" width="30%">          
 
 All Japanese love Rare CheeseCake a lot, I love it too.      
 And I hope you can also like it.    
+
 
 ### AUX MODULE - SK-MOD       
 

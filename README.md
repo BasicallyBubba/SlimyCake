@@ -1,18 +1,22 @@
 ![Intro-GIF](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-GIF.gif) 
 
-# SlimeVR-CheeseCake
-Very delicious Cheesecake. Designed by Sorakage
+# SlimyCake
+Very delicious Cheesecake. Designed by [Sorakage](https://github.com/Sorakage033/SlimeVR-CheeseCake)
+Repo tidied up by BasicallyBubba
 
 # OverView
-"CheeseCake" is a Lighter, portable and better looking full body tracking device.   
-Based on SlimeVR   
-With 8-port charging dock, eliminating wiring troubles.   
+CheeseCake is a Lighter, smaller, prettier, and better IMU-based full-body tracking solution based on SlimeVR 
+With 8-port charging dock, eliminating wiring and storage troubles!
+Designed by Sorakage 
+
+ 
 # CAUTION：   
 **When you place an order in JLCPCB, remember change the PCB thickness to 1mm!**    
     
 **Before flashing the firmware, the board must be connected to the battery.**    
 This design removes the protection diode (to prevent Li-po battery overcharged while uploading firmware), and USB-5V is supplied to the battery via the on-board charging chip TP4057.    
-**The on-board charger will not output voltage without connected to the battery.**        
+**The on-board charger will not output voltage without connected to the battery.**    
+
 ## Extra Info:      
 Any kind of modification are welcome!         
 It can be even better if you can credit me on the modified PCB with [\[This LOGO\]](999-PictureFiles/SK-LOGO.png)     
@@ -97,6 +101,7 @@ While using this version, the code in ``define.h`` must be change to:
       #endif    
 ```      
 
+
 ### Blueberry
 This is a variant that uses an LSM6DSV16XTR tracker
 This provides better performance than a BNO while being slightly cheaper than a BNO 085
@@ -112,6 +117,7 @@ This has an external oscillator, an AUX header, and a DC-DC buck converter
 
 All Japanese love Rare CheeseCake a lot, I love it too.      
 And I hope you can also like it.    
+
 
 
 ### AUX MODULE - SK-MOD       
@@ -136,9 +142,11 @@ Also, if you want to upgrade your SlimeVR but not using 「Choco」SpecialRemake
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro_3D_ICMMOD_Smol.png?raw=true" width="25%">      
 Though it has a smaller size, if it was soldered on 「Choco」SpecialRemake, it looks a little bit unbalance.      
 
+
 ## 3D Printing for SlimeVR-CheeseCake
 
 This repository contains various 3D printed components required to assemble the SlimeVR-CheeseCake. Below are the necessary files and instructions.
+
 
 ### CheeseCake Case
 - **Main Case**: [CheeseCake Case with AUX](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/001.2-Chocolate-Case-With-AUX.stl) - Recommended design compatible with any 3D filament.
@@ -147,30 +155,38 @@ This repository contains various 3D printed components required to assemble the 
   - [Case with Pogo Pins Cutout](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/001.1-Chocolate-Case.stl)    
 - If you want a larger battery, you can use the [803040-case](https://github.com/Sorakage033/SlimeVR-CheeseCake/tree/main/004-3D%20Print%20Model/000.1-Blue-Compact-Case-For-803040-Bat) modified by Blu3u.
 
+
 ### Top Lid
 - **3D Printed Option**: [3D Printed Top Lid](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/002-Cake-Top.stl)
 - **Acrylic Option**: For a 4mm transparent acrylic lid, use the dimensions provided in [this file](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/AcrylicTop-CutSize-Thickness4mm.png).
 
+
 ### Essential Component
 - **Switch Component**: [Switch for Case](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/003-SW.stl) - This part is crucial for the assembly.
 - Note: If it's hard to assemble, you can try narrowing the switch by scaling down the Z-axis.
+
 
 ### Holders (Recommended to Print in PETG Filament)
 - [Clamp Holder](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/004-''CLAMP''Holder.stl)
 - [GoPro Chest Harness Compatible Clamp Holder](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/004-1-''CLAMP''GoPro_Holder.stl) - For GoPro chest harness compatibility.
 - [Slide Holder](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/005-''SLIDE''Holder.stl)
 
+
 ### Charging Dock (Recommended to Build the Type-C ChargeDock)
+
 - **8-Tracker Type-C ChargeDock**     
   <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro_Type-c%20Charging%20Dock.png?raw=true" width="40%">
   - [Top Part](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/ChargeDock-8port-Typec-Top.stl)
   - [Bottom Part](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/ChargeDock-8port-Typec-Bottom.stl)
+    
 - **8-Tracker ChargeDock**:
   - [Top Part](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/ChargeDock-8port-Top-Optimized.stl)
   - [Bottom Part](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/ChargeDock-8port-Bottom-Optimized.stl)
+    
 - **6-Tracker ChargeDock**:
   - [Top Part](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/ChargeDock-6port-Top.stl)
   - [Bottom Part](https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/004-3D%20Print%20Model/ChargeDock-6port-Bottom.stl)
+
 
 ## Assembly    
     
@@ -185,7 +201,47 @@ This repository contains various 3D printed components required to assemble the 
 5.  Tilt the board slightly towards the USB-C side, push the PCB at the side away from the switch.    
 <img decoding="async" src="https://raw.githubusercontent.com/Sorakage033/SlimeVR-CheeseCake/main/999-PictureFiles/A-05.png" width="80%">     
 6.  Press the whole PCB at position, screw on M2*5mm screws.      
+
       
 ## Support
 If this project can help you I would be very happy!      
 And also, if you want to give me some support, you can support me on [BOOTH](https://sorakage033.booth.pm/items/4859476)!
+
+
+## Tier List
+Generally speaking, BNO and LSM are the best tracker modules
+BMI 270 is the good middle-of-the-road option as it is cheaper and better than the BMI160
+
+
+From: menacingexiler on Discord
+
+My tier list for best IMU
+
+-------------------------
+No magnetometer best quality tier list
+S tier: LSM6DSV ¹ ², BNO085
+A Tier: BMI270 ¹ ² ³
+B Tier: BMI160 ³
+C Tier: BMI323 ¹ ², BNO055
+D Tier: ICM-20948
+E Tier: MPU6050/MPU6500, MPU9250/GY-87
+Unknown (Experimental): ICM-42688¹ ²
+
+
+--------------------------
+No magnetometer best value tier list
+S tier: BMI270¹ ² ³
+A Tier: BMI160³, LSM6DSV¹ ²
+B Tier: BNO085
+C Tier: BMI323¹ ², ICM-20948
+D Tier: MPU6050/MPU6500, BNO055, MPU9250/GY-87
+Unknow: ICM-42688¹ ²
+
+
+Reference: Mocopi uses BMI270. SlimeVR and HaritoraX uses BNO085.
+
+Note:
+    1. No breakout board.
+    2. Experimental
+    3. Manual calibration results
+

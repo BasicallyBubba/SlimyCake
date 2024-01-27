@@ -2,7 +2,7 @@
 
 # SlimyCake
 Very delicious Cheesecake. Designed by [Sorakage](https://github.com/Sorakage033/SlimeVR-CheeseCake) <br>
-Repo tidied up by BasicallyBubba
+Repo tidied up and reworded a bit by BasicallyBubba
 <br>
 # OverView
 CheeseCake is a Lighter, smaller, prettier, and better IMU-based full-body tracking solution based on SlimeVR 
@@ -18,8 +18,8 @@ This design removes the protection diode (to prevent Li-po battery overcharged w
 **The on-board charger will not output voltage without connected to the battery.**    
 
 ## Extra Info:      
-Any kind of modification are welcome!         
-It can be even better if you can credit me on the modified PCB with [\[This LOGO\]](999-PictureFiles/SK-LOGO.png)     
+Modifications are welcome and encouraged!         
+If you do, it would be great if you can credit the creator with [\[This LOGO\]](999-PictureFiles/SK-LOGO.png)     
 
 
 ## Index

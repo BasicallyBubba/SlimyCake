@@ -28,26 +28,42 @@ It can be even better if you can credit me on the modified PCB with [\[This LOGO
 ## Components 
 For the CheeseCake you will need the following components:   
 - PCB produced by JLC PCBA   
-- 3D Print Parts   
+- 3D Printed Parts   
 - 38 or 40mm straps   
--   Li-po Battery (_803035 800/900mAh or 903035 1000/1200mAh is what the docs suggest_)
-    -   **Ensure the battery is no larger than 9mm in depth, 30mm in width, and 35mm in height to fit the case.**
-    -   **Verify the battery dimensions with the seller before purchase. Some sellers list 803035 batteries with dimensions exceed, which will not fit in the 3D printed case.**
-- Pogo Pins (Optional for specific supported PCBs) [\[More Info\]](001-‘’Cheese‘’/POGOPIN%20purchase%20Link.txt)
+-   Li-po Battery (803035 800/900mAh or 903035 1000/1200mAh are ideal)
+    -   **If you use a different cell, ensure the battery is no larger than 9mm in depth, 30mm in width, and 35mm in height to fit the case.**
+    -   **Verify the battery dimensions with the seller before purchase. Some sellers list 803035 batteries that go very slightly over the listed dimensions.**
+- Pogo Pins (For trackers with no AUX port) [\[More Info\]](001-‘’Cheese‘’/POGOPIN%20purchase%20Link.txt)
 - Soldering Iron/Station 
 
 ## Versions
-There are 3 Versions of PCB included in this Project:   
-### BMI160-「Cheese」
+There are 4 different flavors of tracker in this project:  
+- [Cheese](#「Cheese」)
+- [Choco](#「Choco」)
+- [Blueberry](#「Blueberry」)
+- [RareCheese](#「RareCheese」)
+
+### 「Cheese」
+This tracker has two variants:
+The original BMI160 variant
+And a slightly revised version designed for the BMI270
+
+Both of these variants include gerbers for the regular tracker, as well as versions that include an AUX header.
+
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-3D_160.png?raw=true" width="30%">   
 
-### BNO085-「Choco」SpecialRemake
+### 「Choco」
+This is a variant of the Cheese that expands it slightly to fit a BNO 085 module
+This includes both the regular tracker and a version that includes the AUX header.
+
+
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-3D_Special%20remake.png?raw=true" width="30%">    
 
-### BNO085-「Choco」SpecialRemake(With AUX port)
-<img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-3D_Special%20remake_AUX.png?raw=true" width="30%">    
 
-### BNO085-「Choco」SpecialRemake(With AUX port and DC-DC Buck power supply)    
+### BNO085-「Choco」SpecialRemake (With AUX port and DC-DC Buck power supply)  
+This is a version of the Choco that includes a DC-DC buck converter
+This also has regular and AUX version. 
+
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-3D_Special%20remake_DCDC.png?raw=true" width="30%">      
 
 This might be the best CheeseCake ever. To extend the battery life, it have some magic in it:    
@@ -72,12 +88,14 @@ While using this version, the code in ``define.h`` must be change to:
       #endif    
 ```      
 
-### LSM6DSV16XTR-「Blueberry」(With AUX port and DC-DC Buck power supply)      
+### 「Blueberry」
+(With AUX port and DC-DC Buck power supply)      
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro-3D_LSM6DSV%20‘’Blueberry‘’.png?raw=true" width="30%">      
 
 It exists, therefore I designed.       
 
-### ICM-42688-「RareCheese」(With external oscillator , AUX port and DC-DC Buck power supply)        
+### 「RareCheese」
+(With external oscillator , AUX port and DC-DC Buck power supply)        
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro_3D_ICM42688“RareCheese”.png?raw=true" width="30%">          
 
 All Japanese love Rare CheeseCake a lot, I love it too.      
@@ -91,7 +109,7 @@ Including 3 different MOD: BMI series, LSM6DSV series and ICM-42688(with Externa
 ```
 In SK-BMI MOD, the default IMU on BMI MOD is BMI270, but you can change it to BMI160/BMI323 or other IMUs at PCBA page.
 ```
-It can be solodered on 「Choco」SpecialRemake directly or connect to the AUX port through ``JST 1.25mm 5pin`` like pic below:      
+It can be soldered on 「Choco」SpecialRemake directly or connect to the AUX port through ``JST 1.25mm 5pin`` like pic below:      
 Note: the two connectors are MIRROR      
 <img decoding="async" src="https://github.com/Sorakage033/SlimeVR-CheeseCake/blob/main/999-PictureFiles/Intro_CONN_sample.png?raw=true" width="100%">       
 - **Notice:If you want to use it both solder it on Choco-SpecialRemake and use as AUX, I recommend order JST connector separately and soldering them on by yourself.**       

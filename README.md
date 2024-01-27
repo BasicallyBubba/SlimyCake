@@ -38,10 +38,10 @@ For the CheeseCake you will need the following components:
 
 ## Versions
 There are 4 different flavors of tracker in this project:  
-- [Cheese](#「Cheese」)
-- [Choco](#「Choco」)
-- [Blueberry](#「Blueberry」)
-- [RareCheese](#「RareCheese」)
+- [Cheese](#Cheese)
+- [Choco](#Choco)
+- [Blueberry](#Blueberry)
+- [RareCheese](#RareCheese)
 
 ### 「Cheese」
 This tracker has two variants:
